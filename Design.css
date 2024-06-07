@@ -1,0 +1,89 @@
+
+body
+{
+	margin: 0;
+	padding: 0;
+	background: url(background.jpg);
+	background-size: cover;
+	font-family: sans-serif;
+	
+}
+.title
+{
+	text-align: center;
+	font-size: 15px;
+	font-family: sans-serif;
+	font-weight: 500;
+	position: relative;
+
+}
+.Loginform
+{
+
+}
+.container
+{
+	padding: 25px 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 450px;
+	height: 420px;
+	border-radius: 5px;
+	border: 10px solid rgba(255, 255, 255, .2);
+	box-shadow: 10px 10px 15px rgba(0, 0, 0, .5);
+}
+.imgBx
+{
+	width: 40%;
+	height: 60%px;
+	overflow: hidden;
+	float: left;
+	text-align: ;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+
+
+
+}
+.imgBx imgBx 
+{
+width: 100%;
+
+}
+/*.loginBx
+{
+	float: right;
+	width: 350px;
+	height: 420px;
+	box-sizing: border-box;
+	padding: 80px 40px;
+	background:rgba(255, 255,255.8);
+
+}*/
+
+body
+{
+display: flex;
+height: 100vh;
+background: linear-gradient(135deg);
+padding: 10px;
+}
+button
+{
+	display: block;
+	width: 90%;
+	margin-top: 20px;
+	height: 20%;
+
+}
+label
+{
+	display: flex;
+	flex-direction: column;
+	margin-top: 10px;
+}
+
+

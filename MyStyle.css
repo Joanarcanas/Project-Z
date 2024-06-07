@@ -1,0 +1,106 @@
+#toplist{
+	background-color:#40A2E3;
+	list-style-type: none;
+	padding:10px 8px;
+	overflow: hidden;
+		
+}
+.brightness{
+	background-color: white;
+	display: inline-block;
+}
+.brightness img:hover{
+	opacity: .5;
+
+transform: scale(0.9);
+transition: 1.0s;
+}
+#toplist li {
+	display: inline;
+	margin-right: 20px;
+}
+li a{
+	color: black;
+	text-decoration: none;
+	padding: 8px 10px;
+	font: italic;
+}
+li a:hover{
+	background-color:#FFF6E9;
+	color:#FFF6E9;
+}
+/*#toplist*/ .left{
+	/*display: inline;*/
+	float: left;
+}
+.right{
+	float: right;
+}
+
+body{
+	background:url(school.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+p{
+	font-size: 22px;
+	color:beige;
+	float: left;
+	text-align: left;
+	align-content: firstbaseline;
+}
+a{
+	color: blue;
+}
+table,th,td{
+	color: black;
+	border-style: solid;
+	border-collapse: collapse;
+	width: 50%;
+	font-size: 25px;
+
+}
+h2{
+	text-align: center;
+	color: beige;
+}
+h3{
+	color: white;
+	font-size: 22px;
+}
+ul{
+	color: blue;
+	font-size: 20px;
+}
+.container
+{
+	padding: 25px 30px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 450px;
+	height: 420px;
+	border-radius: 5px;
+	border: 10px solid rgba(255, 255, 255, .2);
+	box-shadow: 10px 10px 15px rgba(0, 0, 0, .5);
+}
+.imgBx
+{
+	width: 40%;
+	height: 60%px;
+	overflow: hidden;
+	float: left;
+	text-align: center;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+
+
+
+}
+.imgBx imgBx 
+{
+width: 100%;
+
+}
