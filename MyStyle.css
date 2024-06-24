@@ -10,9 +10,9 @@
 	display: inline-block;
 }
 .brightness img:hover{
-	opacity: .5;
+	opacity: .4;
 
-transform: scale(0.9);
+transform: scale(0.5);
 transition: 1.0s;
 }
 #toplist li {
@@ -87,8 +87,8 @@ ul{
 }
 .imgBx
 {
-	width: 40%;
-	height: 60%px;
+	width: 30%;
+	height: 20%px;
 	overflow: hidden;
 	float: left;
 	text-align: center;
@@ -101,6 +101,6 @@ ul{
 }
 .imgBx imgBx 
 {
-width: 100%;
+width: 10%;
 
 }

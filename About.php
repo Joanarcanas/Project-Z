@@ -13,8 +13,8 @@
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             grid-gap: 10px;
             padding: 10px;
-        }
-
+        }  
+ss
         .gallery img {
             width: 100%;
             height: auto;

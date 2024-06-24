@@ -132,7 +132,7 @@ if ($result){
         <p>Interests: Coding, Skydiving, Hiking</p-->
     </div>
     <div class="file-upload">
-        <form action="profile2.php" method="post" enctype="multipart/form-data">
+        <form action="Home.php" method="post" enctype="multipart/form-data">
                 <input type="file" id="profile-photo" name="profile_photo" accept="image/*" onchange="previewImage(event)">
                 <label for="profile-photo">Change Profile Photo</label>
                 <input type="submit" name="submit" id="submit" placeholder="" >

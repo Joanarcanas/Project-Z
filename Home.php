@@ -1,7 +1,7 @@
 <?php
 session_start();
 if(!isset($_SESSION['email'],$_SESSION['id'])){
-	header("location: Login.php");
+	//header("location: Login.php");
 }
 
 ?>
@@ -23,7 +23,7 @@ if(!isset($_SESSION['email'],$_SESSION['id'])){
 		<li><a href="profile3.php">Profile</a></li>
 		<li class="left"><a href="About.php">About</a></li>
 	</ol>
-	<h2>Strathmore University</h2>
+	<h2>HappyLand College</h2>
 
 	<?php
 	$Email =$_SESSION['email'];
@@ -66,7 +66,7 @@ if(!isset($_SESSION['email'],$_SESSION['id'])){
 		<li>Postgraduate</li>
 		<li>Diploma</li>
 		<li>Professional Courses</li>
-		<li>Clearing 2024</li>
+		
 	</ul>
 <br>  
 </body>
